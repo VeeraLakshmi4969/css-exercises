@@ -1,0 +1,87 @@
++--------------------------------------------------+
+|                    <header>                      |
+|                                                  |
+|  +--------------------------------------------+  |
+|  |                <nav>                       |  |
+|  | Home | About | Services | Contact          |  |
+|  +--------------------------------------------+  |
++--------------------------------------------------+
+
++--------------------------------------------------+
+|                     <main>                       |
+|                                                  |
+|  +-------------+  +--------------------------+  |
+|  |  <aside>    |  |       <section>          |  |
+|  | Sidebar     |  |                          |  |
+|  | Related     |  |  +-------------------+   |  |
+|  | Links       |  |  |    <article>      |   |  |
+|  | Ads         |  |  | Blog Post / News  |   |  |
+|  | Categories  |  |  +-------------------+   |  |
+|  +-------------+  +--------------------------+  |
+|                                                  |
++--------------------------------------------------+
+
++--------------------------------------------------+
+|                    <footer>                      |
+|      Copyright | Contact | Social Media          |
++--------------------------------------------------+
+
+┌──────────────────────────────────────────┐
+│ HEADER                                   │
+│ └── NAVIGATION MENU                      │
+├──────────────────────────────────────────┤
+│ MAIN CONTENT AREA                        │
+│                                          │
+│  ASIDE     SECTION                       │
+│  (Side)    └── ARTICLE                   │
+│             (Actual Content)             │
+├──────────────────────────────────────────┤
+│ FOOTER                                   │
+└──────────────────────────────────────────┘
+
+<body>
+
+    <header>
+        <h1>Website Logo</h1>
+
+        <nav>
+            Home | About | Services | Contact
+        </nav>
+    </header>
+
+    <main>
+
+        <aside>
+            Related Links
+        </aside>
+
+        <section>
+
+            <h2>Web Development</h2>
+
+            <article>
+                <h3>Learn HTML</h3>
+                <p>This is the main article content.</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Copyright © 2026
+    </footer>
+
+</body>
+HEADER  → Newspaper name
+NAV     → Sections (Sports, News, Politics)
+
+MAIN    → Entire newspaper content
+
+ASIDE   → Advertisements or related news
+
+SECTION → Sports section, Technology section
+
+ARTICLE → One specific news article
+
+FOOTER  → Publisher information
